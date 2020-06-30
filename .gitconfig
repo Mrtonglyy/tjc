@@ -1,0 +1,12 @@
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[user]
+	name = tjc
+	email = 2574008321@qq.com
+[uesr]
+	name = tongjunchao
+[color]
+	ui = true
